@@ -5,7 +5,11 @@
   "projects": {
     "nttdata-client-frontend": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:service": {
+          "path": "src/app/services"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",

@@ -1,0 +1,27 @@
+.btn-primary {
+    background-color: #002c75;
+    color: white; 
+    border-color: none;
+}
+.btn-primary:disabled {
+    background-color: #eaedf2;
+    color: #6c757d;
+    border-color: #e1e4e9;
+}
+
+.card{
+    background-color: #f7faff;
+}
+
+.card-header{
+    background-color: #f7faff;
+    border-bottom: none;
+    font-size: 0.9em;
+    color: #bcc0c3;
+}
+
+.form-label {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #376bc4;
+    font-size: 0.9em;
+}
