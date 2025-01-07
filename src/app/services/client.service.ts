@@ -10,7 +10,7 @@ import { ClientDto } from '../models/client-dto';
 })
 export class ClientService {
 
-  private apiUrl = 'http://localhost:8092/nttdata/api/v1/client'; // URL del backend
+  private apiUrl = 'http://localhost:8090/nttdata/api/v1/client'; // URL del backend
 
   constructor(
     private http: HttpClient // Inyecta el servicio HttpClient
